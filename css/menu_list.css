@@ -1,0 +1,25 @@
+/*Menu List*/
+.link-nav{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+.link-nav-arrow.arrow::after{
+    transform: rotate(0);
+}
+
+.link-nav-arrow::after {
+    content: '\f107';
+    font-weight: 900;
+    font-family: "Font Awesome 5 Pro";
+    margin-left: 0.6rem;
+
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.icon{
+    width: 1.4rem;
+}

@@ -1,0 +1,10 @@
+/* MENU SECUNDÁRIO */
+.hide{
+    display: none;
+}
+.list-nav-second a{
+    color: white;
+    text-decoration: none;
+    padding: 0 0 1rem 2.7rem;
+    display: block;
+}
